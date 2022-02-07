@@ -33,6 +33,20 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+a {
+  color: rgba(110, 102, 102, 0.952);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: cyan;
+}
+a:visited {
+  color: gray;
+}
 .avatar {
   /* ширина */
   width: 200px;
@@ -62,21 +76,20 @@ body {
   margin: auto;
 }
 /* box model */
-.social {
-  background: #f28d8d;
-  /* padding: 15px; */
-  /* padding: 15px 40px 20px 25px; */
-  /* первое значение верх и низ */
-  /* второе значение лево и право */
-  padding: 15px 40px;
+/* .social { */
+/* background: #f28d8d; */
+/* padding: 15px; */
+/* padding: 15px 40px 20px 25px; */
+/* первое значение верх и низ */
+/* второе значение лево и право */
+/* padding: 15px 40px;
   margin: 20px;
   border: 5px solid #91aaf2;
-}
+} */
 
-.box-model > div {
-  background: #000;
-  /* высота */
-  height: 200px;
+/* .box-model > div { */
+/* height: 200px; высота */
+/* background: #000;
   width: 25%;
-  float: left;
-}
+  float: left; */
+/* } */
