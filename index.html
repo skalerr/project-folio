@@ -8,82 +8,90 @@
   <body>
     <div class="container">
       <h1>Project Portfolio</h1>
-      <!-- <table cellspacing="15"> -->
 
       <div class="info">
-        <img class="avatar" alt="Здесь моя фотография" src="/img/IMG_5842.jpg" />
-        <h2>Мое порфолио</h2>
-        <p>Здесь будут все мои <strong>проекты</strong></p>
+        <img class="avatar" alt="Здесь моя фотография" src="/IMG_5842.jpg" />
+        <div class="info-text">
+          <h4>Мое порфолио</h4>
+          <p>Здесь будут все мои <strong>проекты</strong></p>
 
-        <h4>Social</h4>
+          <h4>Social</h4>
 
-        <a href="vk.com" target="_blank">vk </a>
-        //
-        <a href="gihub.com"> github </a>
-        //
-        <a href="instagramm.com"> instagramm </a>
+          <a href="vk.com" target="_blank">vk </a>
+          //
+          <a href="gihub.com"> github </a>
+          //
+          <a href="instagramm.com"> instagramm </a>
+        </div>
       </div>
 
       <!-- </table> -->
 
       <br />
-      <!-- social -->
 
-      <hr size="5" noshade width="auto" color="cyan" />
-
-      <h2>Hobby</h2>
-
-      <hr size="5" noshade width="auto" color="cyan" />
-      <h2>Места работы</h2>
-      <table border="2">
-        <thead>
-          <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Года</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>32</td>
-            <td>2</td>
-          </tr>
-        </tbody>
-        <tfoot></tfoot>
-      </table>
-      <hr size="5" noshade width="3000" color="cyan" />
-      <h2>Обратная связь</h2>
-      <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите ваше имя" />
-        <br />
-
-        <label for="email">Ваша Эл почта:</label>
-        <input type="text" id="email" placeholder="Введите вашу почту" />
-        <br />
-
-        <label for="message">Ваше сообщение:</label>
-        <br />
-
-        <textarea id="message" cols="15" rows="2"></textarea>
-        <br />
-
-        <input type="submit" value="Связаться со мной" />
-      </form>
-      <div class="box-model">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="card bg-yellow" id="color">
+        <h2>Hobby</h2>
+        <ol class="list">
+          <li>Изучаю разнообразные языки</li>
+          <li>Веду инстаграм</li>
+          <li>Изучаю программирование</li>
+          <li>Люблю картинг</li>
+        </ol>
       </div>
-
-      <hr size="5" noshade width="3000" color="cyan" />
+      <div class="card bg-green" id="color">
+        <h2>Места работы</h2>
+        <table class="table">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>Лагерь чехово</td>
+              <td>Вожатый</td>
+              <td>06.2019 - 07.2019</td>
+            </tr>
+            <tr>
+              <td>Аэропорт</td>
+              <td>Консультант по работе с пассажирам</td>
+              <td>10.2021 - 12.2021</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+      <div class="card bg-red" id="color1">
+        <h2>My Project's</h2>
+        <ul class="link-list">
+          <li><a href="gihub.com"> github </a></li>
+          <li><a href="gihub.com"> github </a></li>
+          <li><a href="gihub.com"> github </a></li>
+          <li><a href="gihub.com"> github </a></li>
+        </ul>
+      </div>
+      <!-- color1 -->
+      <div class="card" id="color">
+        <div class="contact">
+          <h2>Обратная связь</h2>
+          <form action="/">
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите ваше имя" />
+              </div>
+              <div class="form-group">
+                <label for="email">Ваша email:</label>
+                <input type="text" id="email" placeholder="Введите вашу почту" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Ваше сообщение:</label>
+              <textarea id="text" cols="15" rows="2"></textarea>
+            </div>
+            <input class="btn" type="submit" value="Связаться со мной" />
+          </form>
+        </div>
+        <div class="position">
+          <div class="box"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
