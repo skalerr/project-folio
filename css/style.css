@@ -1,0 +1,39 @@
+/* Color Theme Swatches in Hex */
+.Fluffy-clouds-1-hex {
+  color: #ded0f2;
+}
+.Fluffy-clouds-2-hex {
+  color: #91aaf2;
+}
+.Fluffy-clouds-3-hex {
+  color: #6b98f2;
+}
+.Fluffy-clouds-4-hex {
+  color: #f2b9ac;
+}
+.Fluffy-clouds-5-hex {
+  color: #f28d8d;
+}
+
+body {
+  background-color: #f2b9ac;
+  color: #000;
+  /* font: 600 16px "Courier New", Courier, monospace; */
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.avatar {
+  width: 200px;
+  /* скругление */
+  border-radius: 28px;
+  /* box-shadow: -15px -3px 2px 1px #91aaf2; */
+  /* box-shadow: -15px -3px 2px 1px rgb(0 0 255 / 20%); */
+  box-shadow: 12px 12px 2px 1px #91aaf2;
+  /* rgb(0 0 255 / 20%); */
+}
+
+.info p {
+  color: ;
+}
