@@ -15,6 +15,15 @@
   color: #f28d8d;
 }
 
+hr {
+  border: 10px;
+  border-radius: 10px;
+  size: 10px;
+  width: auto;
+  color: #91aaf2;
+  background: #91aaf2;
+}
+
 body {
   background-color: #f2b9ac;
   color: #000;
@@ -25,15 +34,49 @@ body {
 }
 
 .avatar {
+  /* ширина */
   width: 200px;
   /* скругление */
   border-radius: 28px;
-  /* box-shadow: -15px -3px 2px 1px #91aaf2; */
-  /* box-shadow: -15px -3px 2px 1px rgb(0 0 255 / 20%); */
+  /* тень вокруг фото */
   box-shadow: 12px 12px 2px 1px #91aaf2;
   /* rgb(0 0 255 / 20%); */
+  /* box-shadow: -15px -3px 2px 1px #91aaf2; */
+  /* box-shadow: -15px -3px 2px 1px rgb(0 0 255 / 20%); */
 }
 
 .info p {
-  color: ;
+  color: rgba(110, 102, 102, 0.952);
+  margin: 0%;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: lowercase;
+  letter-spacing: 4px;
+  word-spacing: 42px; */
+}
+.container {
+  /* width: auto; */
+  /* макс ширина */
+  max-width: 750px;
+  margin: auto;
+}
+/* box model */
+.social {
+  background: #f28d8d;
+  /* padding: 15px; */
+  /* padding: 15px 40px 20px 25px; */
+  /* первое значение верх и низ */
+  /* второе значение лево и право */
+  padding: 15px 40px;
+  margin: 20px;
+  border: 5px solid #91aaf2;
+}
+
+.box-model > div {
+  background: #000;
+  /* высота */
+  height: 200px;
+  width: 25%;
+  float: left;
 }
