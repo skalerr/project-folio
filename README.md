@@ -1,3 +1,3 @@
 # project-folio
 
-cv cv
+https://skalerr.github.io/project-folio/
